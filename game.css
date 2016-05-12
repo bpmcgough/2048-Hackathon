@@ -1,0 +1,117 @@
+body {
+  padding: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+#board{
+  margin: 0 auto;
+}
+
+#board td{
+  border: 1px solid #ddd;
+  width: 60px;
+  height: 60px;
+}
+
+td.empty {
+  background-color: #fff;
+}
+
+#board td.two {
+  background-color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+  transition: border 1s ease;
+}
+
+td.four {
+  background-color: tan;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.eight {
+  background-color: #ff9933;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.sixteen {
+  background-color: orange;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.thirty-two {
+  background-color: pink;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.sixty-four {
+  background-color: red;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.one-hundred {
+  background-color: #ffff66;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.two-hundred {
+  background-color: #ffff00;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.five-hundred {
+  background-color: #cccc00;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.five-hundred {
+  background-color: #99cc00;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.one-thousand {
+  background-color: #00cc00;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.two-thousand {
+  background-color: #00cc99;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+td.four-thousand {
+  background-color: #9900ff;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
+#control_panel {
+  margin: 10px auto;
+  text-align: center;
+}
